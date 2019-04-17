@@ -4,8 +4,8 @@ import (
 	"os"
 
 	types "github.com/gogo/protobuf/types"
-	v1alpha3 "github.com/michaelkipper/istio-client-go/pkg/apis/networking/v1alpha3"
-	versionedclient "github.com/michaelkipper/istio-client-go/pkg/client/clientset/versioned"
+	v1alpha3 "github.com/jpreese/istio-client-go/pkg/apis/networking/v1alpha3"
+	versionedclient "github.com/jpreese/istio-client-go/pkg/client/clientset/versioned"
 	istiov1alpha3 "istio.io/api/networking/v1alpha3"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/tools/clientcmd"

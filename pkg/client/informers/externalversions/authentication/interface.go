@@ -20,8 +20,8 @@ limitations under the License.
 package authentication
 
 import (
-	v1alpha1 "github.com/michaelkipper/istio-client-go/pkg/client/informers/externalversions/authentication/v1alpha1"
-	internalinterfaces "github.com/michaelkipper/istio-client-go/pkg/client/informers/externalversions/internalinterfaces"
+	v1alpha1 "github.com/jpreese/istio-client-go/pkg/client/informers/externalversions/authentication/v1alpha1"
+	internalinterfaces "github.com/jpreese/istio-client-go/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.
